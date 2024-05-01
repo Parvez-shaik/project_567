@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, MagicMock
-from code import FitnessTracker
+from FitnessTracker import FitnessTracker
 
 class TestFitnessTracker(unittest.TestCase):
     def setUp(self):
