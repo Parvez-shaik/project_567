@@ -1,5 +1,5 @@
 import unittest
-
+from FitnessTracker import FitnessTracker
 class TestFitnessTracker(unittest.TestCase):
     def setUp(self):
         self.tracker = FitnessTracker()
